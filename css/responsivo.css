@@ -1,0 +1,118 @@
+/* Responsivo do Index */
+@media screen and (max-width: 1020px) {
+  header nav.menu-desktop,
+  section.links {
+    display: none;
+  }
+  .btn-abrir-menu {
+    display: block;
+  }
+
+  section.banner .hero-img img {
+    width: 100%;
+  }
+
+  section.banner .hero {
+    flex-direction: column-reverse;
+    padding: 0;
+  }
+
+  section.banner .hero .txt-hero {
+    text-align: center;
+    margin-top: 25px;
+  }
+
+  section.banner .hero .txt-hero a {
+    font-size: 10px;
+  }
+
+  section.banner .hero .txt-hero p {
+    font-size: 13px;
+  }
+
+  .flex {
+    flex-direction: column;
+  }
+
+  .btn-social button {
+    width: 50px;
+    height: 50px;
+  }
+
+  .btn-social button svg {
+    width: 20px;
+  }
+
+  section.especialidade .especialidade-box {
+    width: 100%;
+  }
+
+  section.sobre .img-sobre img {
+    width: 100%;
+  }
+
+  section.projectos .img-projectos {
+    width: 100%;
+  }
+
+  section.banner {
+    width: 100%;
+  }
+
+  footer .linha-footer {
+    padding: 0 auto;
+    text-align: center;
+  }
+
+  footer .logo-footer {
+    margin-bottom: 20px;
+  }
+  footer .copy {
+    flex-direction: column;
+    align-items: center;
+  }
+  footer .copy p {
+    font-size: 14px;
+  }
+}
+/* ................ */
+
+/* Responsivo da section Sites*/
+@media screen and (max-width: 1020px) {
+  header.menu-desktop nav {
+    display: none;
+  }
+
+  .flex {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  section.servicos .website-box {
+    width: 100%;
+  }
+  section.sites {
+    background-image: url(/images/homepage-concept-with-search-bar-mobile.jpg);
+  }
+  .btn-social button {
+    width: 50px;
+    height: 50px;
+  }
+
+  .btn-social button svg {
+    width: 20px;
+  }
+
+  footer .linha-footer {
+    padding: 0 auto;
+    text-align: center;
+  }
+
+  footer .logo-footer {
+    margin-bottom: 20px;
+  }
+
+  footer {
+    padding: 30px 0;
+  }
+}
