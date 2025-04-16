@@ -1,0 +1,12 @@
+# Instruções para todos os crawlers (motores de busca)
+User-agent: *
+Disallow: /admin/
+Allow: /index.html
+Allow: /css/
+Allow: /js/
+Allow: /images/
+Disallow: /login/
+Disallow: /privado/
+Allow: /privado/pagina-publica.html
+
+Sitemap: https://techservic.github.io/sitemap.xml
