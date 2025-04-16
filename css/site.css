@@ -288,7 +288,10 @@ footer .flex {
 footer .linha-footer {
   padding: 20px 0;
 }
-
+footer .copy{
+  display:flex;
+  justify-content:space-between;
+  }
 footer .linha-footer:first-child {
   border-bottom: 2px solid #03334e;
 }
